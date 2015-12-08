@@ -36,7 +36,7 @@ class AddTenantToModels < ActiveRecord::Migration
       "spree_tax_rates",
       "spree_taxonomies",
       "spree_taxons",
-      "spree_tokenized_permissions",
+      #"spree_tokenized_permissions",
       "spree_trackers",
       "spree_users",
       "spree_variants",
