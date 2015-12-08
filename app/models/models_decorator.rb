@@ -41,4 +41,3 @@ Spree::Core::Search::Base.class_eval do
       base_scope
     end
 end
-
