@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = 'Allows completely separate Spree sites to be run from the same installation'
   s.required_ruby_version     = '>= 2.2.3'
 
-   s.author    = 'Stefan Senk'
+   s.author    = 'SunTechnique'
   # s.email     = 'you@example.com'
   # s.homepage  = 'http://www.spreecommerce.com'
 
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0.4'
+  s.add_dependency 'spree_core', '~> 3.0.0'
   s.add_dependency 'multitenant'
 
   s.add_development_dependency 'capybara', '~> 2.1'
